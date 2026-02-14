@@ -1,6 +1,6 @@
 variable "aws_region" {
   type    = string
-  default = "us-east-1"
+  default = "ue-north-1"
 }
 variable "instance_type" {
   type    = string
@@ -16,7 +16,7 @@ variable "ami_id" {
 }
 variable "existing_key_pair_name" {
   type    = string
-  default = "devops"
+  default = "terraform"
 }
 variable "allowed_ssh_cidr" {
   type    = string
