@@ -1,7 +1,7 @@
 variable "aws_region" {
   description = "AWS region where resources will be created"
   type        = string
-  default     = "ue-north-1"
+  default     = "eu-north-1"
 }
 
 variable "instance_type" {
